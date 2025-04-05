@@ -118,11 +118,11 @@
   }
 
   .adj2 {
-    top: 8% ;
-    left: 42%;
-    width: 36% !important;
+    top: 8%;
+    left: 48%;
+    width: 25% !important;
     animation: animation 5s 0s infinite ease-in-out;
-  }
+}
 
   @keyframes animation {
     0%{

@@ -6,7 +6,10 @@
         width: 50%;
     }
     .authImg {
-        width: 50% !important;
+        width: 38% !important;
+    }
+    .slideTxtImg{
+        width: 70%;
     }
     #slider .slide-text p{
         font-size: 19px;
@@ -24,13 +27,13 @@
     }
     .slide-bg {
         top: 0%;
-        left: 65%;
+        left: 70%;
         animation: imgAni 5s 0s infinite linear;
     }
     .adj2 {
         top: 8%;
-        left: 39%;
-        width: 53% !important;
+        left: 49%;
+        width: 43% !important;
         animation: animation 5s 0s infinite ease-in-out;
     }
   }
@@ -39,17 +42,17 @@
         width: 98% !important;
     }
     .slide-text {
-        width: 60%;
+        width: 51%;
     }
     .authImg {
-        width: 75% !important;
+        width: 40% !important;
     }
     #slider .slide-text p{
         font-size: 16px;
         font-weight: 400;
     }
     .slideTxtImg{
-        width: 50%;
+        width: 53%;
     }
     #slider .swiper-slide p{
         margin: 0;
@@ -61,8 +64,8 @@
     }
     .adj2 {
         top: 8%;
-        left: 40%;
-        width: 65% !important;
+        left: 48%;
+        width: 45% !important;
         animation: animation 5s 0s infinite ease-in-out;
     }
     
