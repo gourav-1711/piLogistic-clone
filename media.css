@@ -1,0 +1,69 @@
+@media (max-width: 800px) {
+    #about .card{
+        width: 80% !important;
+    }
+    .slide-text {
+        width: 50%;
+    }
+    .authImg {
+        width: 50% !important;
+    }
+    #slider .slide-text p{
+        font-size: 19px;
+        font-weight: 400;
+    }
+    #slider .swiper-button-next , .swiper-button-prev{
+        font-size: 25px !important;
+      }
+
+    #slider .swiper-button-next:after , .swiper-button-prev:after{
+        font-size: 25px !important;
+    }
+    #slider .swiper-slide p{
+        margin: 0;
+    }
+    .slide-bg {
+        top: 0%;
+        left: 65%;
+        animation: imgAni 5s 0s infinite linear;
+    }
+    .adj2 {
+        top: 8%;
+        left: 39%;
+        width: 53% !important;
+        animation: animation 5s 0s infinite ease-in-out;
+    }
+  }
+  @media (max-width: 500px) {
+    #about .card{
+        width: 98% !important;
+    }
+    .slide-text {
+        width: 60%;
+    }
+    .authImg {
+        width: 75% !important;
+    }
+    #slider .slide-text p{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .slideTxtImg{
+        width: 50%;
+    }
+    #slider .swiper-slide p{
+        margin: 0;
+    }
+    .slide-bg {
+        top: 0%;
+        left: 70%;
+        animation: imgAni 5s 0s infinite linear;
+    }
+    .adj2 {
+        top: 8%;
+        left: 40%;
+        width: 65% !important;
+        animation: animation 5s 0s infinite ease-in-out;
+    }
+    
+  }

@@ -161,6 +161,60 @@
     outline-color: black;
   }
 
+  #service .card-body{
+    padding: 0 !important;
+  }
+  #service h1{
+    position: relative;
+  }
+  #service h1::after {
+    content: '';
+    width: 94px !important;
+    height: 3px !important;
+    background-color: #009698;
+    z-index: 999;
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+#service .card{
+  border: none;
+}
+
+
+#about{
+  background-image: url(Images/hp-about-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about .card{
+  background-color: transparent !important;
+  color: white !important;
+}
+
+#about h1{
+  position: relative;
+}
+#about h1::after {
+  content: '';
+  width: 94px !important;
+  height: 3px !important;
+  background-color: #009698;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+}
+#about .card p{
+  text-align: justify;
+}
+  /* #service .row>*{
+    padding: 0 !important;
+    margin: 0 !important;
+  }  */
   /* .poRel{
     position: relative;
   } */
