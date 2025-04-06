@@ -211,6 +211,39 @@
 #about .card p{
   text-align: justify;
 }
+#team h1{
+  position: relative;
+}
+#team div h1::after {
+  content: '';
+  width: 94px !important;
+  height: 3px !important;
+  background-color: #009698;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 47%;
+}
+#team .card {
+  border-radius: 20px !important;
+}
+#team .card .card-img-top{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#team .card .card-title{
+  font-weight: 700;
+  font-size: 18px;
+}
+#team .card .card-text{
+  font-size: 13px;
+  color: #009698 !important;
+  text-align: left;
+  margin-left: 62px;
+}
+
+
   /* #service .row>*{
     padding: 0 !important;
     margin: 0 !important;
