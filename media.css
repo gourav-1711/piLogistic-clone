@@ -1,72 +1,112 @@
+@media (max-width: 1000px) {
+    #form form .left{
+        width: 90% !important;
+    }
+
+    #form form .right{
+        width: 90% !important;
+    }
+}
 @media (max-width: 800px) {
-    #about .card{
+    #about .card {
         width: 80% !important;
     }
+
     .slide-text {
         width: 50%;
     }
+
     .authImg {
         width: 38% !important;
     }
-    .slideTxtImg{
+
+    .slideTxtImg {
         width: 70%;
     }
-    #slider .slide-text p{
+
+    #slider .slide-text p {
         font-size: 19px;
         font-weight: 400;
     }
-    #slider .swiper-button-next , .swiper-button-prev{
-        font-size: 25px !important;
-      }
 
-    #slider .swiper-button-next:after , .swiper-button-prev:after{
+    #slider .swiper-button-next,
+    .swiper-button-prev {
         font-size: 25px !important;
     }
-    #slider .swiper-slide p{
+
+    #slider .swiper-button-next:after,
+    .swiper-button-prev:after {
+        font-size: 25px !important;
+    }
+
+    #slider .swiper-slide p {
         margin: 0;
     }
+
     .slide-bg {
         top: 0%;
         left: 70%;
         animation: imgAni 5s 0s infinite linear;
     }
+
     .adj2 {
         top: 8%;
         left: 49%;
         width: 43% !important;
         animation: animation 5s 0s infinite ease-in-out;
     }
-  }
-  @media (max-width: 500px) {
-    #about .card{
+
+    #form form .left{
+        width: 90% !important;
+    }
+
+    #form form .right{
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    #about .card {
         width: 98% !important;
     }
+
     .slide-text {
         width: 51%;
     }
+
     .authImg {
         width: 40% !important;
     }
-    #slider .slide-text p{
+
+    #slider .slide-text p {
         font-size: 16px;
         font-weight: 400;
     }
-    .slideTxtImg{
+
+    .slideTxtImg {
         width: 53%;
     }
-    #slider .swiper-slide p{
+
+    #slider .swiper-slide p {
         margin: 0;
     }
+
     .slide-bg {
         top: 0%;
         left: 70%;
         animation: imgAni 5s 0s infinite linear;
     }
+
     .adj2 {
         top: 8%;
         left: 48%;
         width: 45% !important;
         animation: animation 5s 0s infinite ease-in-out;
     }
-    
-  }
+    #form form .left{
+        width: 90% !important;
+    }
+    #form form .right{
+        width: 90% !important;
+    }
+}
