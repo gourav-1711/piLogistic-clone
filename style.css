@@ -1,6 +1,3 @@
-/* .navbar>.container-fluid{
-    flex-wrap:  !important;
-} */
 .back-to-top {
   position: fixed;
   bottom: 25px;
@@ -15,16 +12,6 @@
   align-items: center;
 }
 
-.box {
-  visibility: hidden;
-  opacity: 0;
-  display: none !important;
-}
-
-
-.box li:hover {
-  background-color: #F8F9FA;
-}
 
 .navbar-brand {
   padding-top: 0;
@@ -33,40 +20,6 @@
   font-size: 0;
   text-decoration: none;
   white-space: nowrap;
-}
-
-#slide2 .swiper {
-  width: 100%;
-  height: 100%;
-}
-
-#slide2 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 20% !important;
-}
-
-#slide2 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-#slide2 .swiper-pagination {
-  top: 76%;
-}
-
-#slide2 .swiper-button-next,
-.swiper-button-prev {
-  background-color: #00000065;
-  border-radius: 70%;
-  padding: 10px;
-  font-size: 20px;
 }
 
 .swiper-pagination-bullet-active {
@@ -242,7 +195,8 @@
   left: 47%;
 }
 
-#team .card {
+#team .card,
+#blog .card {
   border-radius: 20px !important;
   transition: 0.3s;
 }
@@ -264,11 +218,13 @@
   margin-left: 62px;
 }
 
-#team .card:hover {
+#team .card:hover,
+#blog .card:hover {
   transform: translateY(-6px);
 }
 
-#form{
+#form,
+#footer {
   background-image: url(Images/slider-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -291,25 +247,139 @@
   left: 47%;
 }
 
-#form .right button{
+#form .right button {
   transition: 0.7s;
   border-width: 3px;
   border-color: #02B4A5;
-border-radius: 6px;
+  border-radius: 6px;
   background-color: #02B4A5;
   color: white;
 }
-#form .right button:hover{
+
+#form .right button:hover {
   transition: 0.7s;
   border-width: 3px;
   border-color: #02B4A5;
   background-color: transparent;
 }
 
-/* #service .row>*{
-    padding: 0 !important;
-    margin: 0 !important;
-  }  */
-/* .poRel{
-    position: relative;
-  } */
+#whyPill h1 {
+  position: relative;
+}
+
+#whyPill div h1::after {
+  content: '';
+  width: 94px !important;
+  height: 3px !important;
+  background-color: #02B4A5;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+}
+
+#client h2 {
+  position: relative;
+}
+
+#client div h2::after {
+  content: '';
+  width: 94px !important;
+  height: 3px !important;
+  background-color: #02B4A5;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+}
+
+#client .slide2 {
+  width: 90% !important;
+}
+
+#client #slide2 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+#client #slide2 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#client #slide2 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#blog h2 {
+  position: relative;
+}
+
+#blog div h2::after {
+  content: '';
+  width: 85px !important;
+  height: 3px !important;
+  background-color: #02B4A5;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 46%;
+}
+
+#blog button {
+  transition: 0.7s;
+  border-width: 3px;
+  border-color: #1dc4b6;
+  border-radius: 6px;
+  background-color: #02B4A5;
+  color: white;
+}
+
+#blog button:hover {
+  transition: 0.7s;
+  border-width: 3px;
+  color: #02B4A5;
+  border-color: #02B4A5;
+  background-color: transparent;
+}
+
+
+#footer h5 {
+  position: relative;
+}
+
+#footer div h5::after {
+  content: '';
+  width: 55px !important;
+  height: 3px !important;
+  background-color: #FAA61A;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  top: 115%;
+  left: 0%;
+}
+#footer .row .col ul{
+  line-height: 30px;
+  /* margin-left: 65px !important; */
+}
+
+
+
+
+
+
+html {
+  cursor: url('https://www.pilogistics.in/assets/images/cursor-icon.png'), default !important;
+}
