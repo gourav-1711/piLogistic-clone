@@ -125,6 +125,10 @@
   padding: 0 !important;
 }
 
+#service .card .card-title{
+  font-size: 15px !important;
+}
+
 #service h1 {
   position: relative;
 }
