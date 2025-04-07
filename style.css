@@ -388,8 +388,33 @@
   line-height: 30px;
   /* margin-left: 65px !important; */
 }
+#footer .final{
+  border-top-color: rgba(0, 0, 0, 0.507) !important;
+}
+#footer .final h5 {
+  position: relative;
+}
 
+#footer .final div h5::after {
+  content: '';
+  width: 55px !important;
+  height: 3px !important;
+  background-color: #FAA61A;
+  z-index: 999;
+  display: block;
+  position: absolute;
+  margin-top: 5px;
+  top: 115%;
+  left: 48%;
+}
 
+.colorGreen{
+  color: #009698;
+}
+
+.copyright .container aside a{
+  color: black !important;
+}
 
 
 

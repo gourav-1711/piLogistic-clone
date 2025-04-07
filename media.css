@@ -1,4 +1,10 @@
 @media (max-width: 1000px) {
+    #footer .finalUL{
+        flex-direction: column;
+    }
+    .copyright .container{
+        flex-direction: column;
+    }
     #form form .left{
         width: 90% !important;
     }
